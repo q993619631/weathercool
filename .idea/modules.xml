@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/weather.iml" filepath="$PROJECT_DIR$/weather.iml" />
+      <module fileurl="file://C:\Users\Administrator\AndroidStudioProjects\MyApplication\weather1\app\app.iml" filepath="C:\Users\Administrator\AndroidStudioProjects\MyApplication\weather1\app\app.iml" />
+      <module fileurl="file://C:\Users\Administrator\AndroidStudioProjects\MyApplication\weather1\weather.iml" filepath="C:\Users\Administrator\AndroidStudioProjects\MyApplication\weather1\weather.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather1.iml" filepath="$PROJECT_DIR$/weather1.iml" />
     </modules>
   </component>
 </project>
