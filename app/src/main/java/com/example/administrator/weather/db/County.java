@@ -2,9 +2,6 @@ package com.example.administrator.weather.db;
 
 import org.litepal.crud.DataSupport;
 
-/**
- * Created by Love_People on 2018/1/2.
- */
 
 public class County extends DataSupport {
     private int id;
@@ -14,24 +11,23 @@ public class County extends DataSupport {
     private String weatherId;
 
     private int cityId;
+    private String countyName;
 
     public int getId() {
+
         return id;
     }
 
     public void setId(int id) {
+
         this.id = id;
     }
 
-    public String getCoutyName() {
-        return coutyName;
-    }
 
-    public void setCoutyName(String coutyName) {
-        this.coutyName = coutyName;
-    }
+
 
     public String getWeatherId() {
+
         return weatherId;
     }
 
@@ -45,5 +41,13 @@ public class County extends DataSupport {
 
     public void setCityId(int cityId) {
         this.cityId = cityId;
+    }
+
+    public String getCountyName() {
+        return countyName;
+    }
+
+    public void setCountyName(String countyName) {
+        this.countyName = countyName;
     }
 }
