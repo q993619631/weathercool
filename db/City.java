@@ -2,9 +2,7 @@ package com.example.administrator.weather.db;
 
 import org.litepal.crud.DataSupport;
 
-/**
- * Created by Love_People on 2018/1/2.
- */
+
 
 public class City extends DataSupport {
     private int id;
